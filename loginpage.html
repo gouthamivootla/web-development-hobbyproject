@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="discription" type="about jee gaide line">
+<meta title="how to crack jee">
+<style>
+
+body{
+background-color:black;
+}
+
+
+p{
+color:red;
+font-size:30px;
+}
+</style>
+</head>
+<body>
+
+<center>
+
+<h1 style="color:white"><font size="7">LOGIN</h1>
+<fieldset style="width:0px;background-color:white">
+<img src="profilephoto.png" alt="logo of profile" width="100" height="100">
+<form id="login" name="login">
+<label for="username">username</label></br>
+
+<input type="text" id="username" name="username"  required autofocus></br>
+
+<label for="password">password</label></br>
+
+<input type="password" id="pass" name="password" required></br>
+
+
+<button onclick="check()">submit</button>
+
+
+
+</form>
+</fieldset>
+
+
+</center>
+<p id="done">
+</p>
+<script>
+function check()
+{
+var x=document.getElementById("username").value;
+//var x=prompt(" ");
+var y=document.getElementById("pass").value;
+//var result="click here";
+//var re=result.link("https://www.w3schools.com");
+
+//document.getElementById("oye").innerHTML=y;
+//alert(x);
+//alret(y);
+if(x=="quiz" || y=="quiz")
+{
+if(y!="quiz")
+alert("incorrect password");
+else if(x!="quiz")
+alert("incorrect username");
+else
+//document.getElementById("done").innerHTML=re;
+//window.alert(re);
+//document.write(z);
+//document.write(re);
+//alert("C:\Users\gouth\Desktop\quizz\index.html");
+window.location.replace("index.html")
+alert("welcome To our website")
+} 
+
+else{
+alert("incorrect");
+}
+
+}
+</script>
+
+
+</body>
+</html>
